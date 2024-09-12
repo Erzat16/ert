@@ -30,6 +30,10 @@ const Header = () => {
                         </ul>
                     </nav>
                     <Button className="outline">Contact us</Button>
+                    <div className="header__burger">
+                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox"/>
+                        <label class="burger" for="burger-checkbox"></label>
+                    </div>
                 </div>
             </div>
         </header >
